@@ -1,0 +1,25 @@
+{
+  "name": "siharkan-tik-web",
+  "private": true,
+  "version": "1.0.0",
+  "description": "SIHARKAN-TIK - Sistem Informasi Harmonisasi Peralatan Komunikasi Polda DIY",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext .js,.jsx",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.108.2",
+    "exceljs": "4.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.0",
+    "eslint": "^9.0.0",
+    "vite": "^5.0.0"
+  }
+}
